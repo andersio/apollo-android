@@ -68,6 +68,11 @@ subprojects {
         includeGroup("org.jetbrains.trove4j")
       }
     }
+    mavenLocal {
+      content {
+        includeGroup("com.squareup.okio")
+      }
+    }
   }
 
   group = property("GROUP")!!
@@ -168,10 +173,6 @@ fun Project.configurePublishing() {
           withType<MavenPublication> {
             // multiplatform doesn't add javadoc by default so add it here
             artifact(javadocJarTaskProvider.get())
-            if (name == "kotlinMultiplatform") {
-              // sources are added for each platform but not for the common module
-              artifact(sourcesJarTaskProvider.get())
-            }
           }
         }
         plugins.hasPlugin("java-gradle-plugin") -> {

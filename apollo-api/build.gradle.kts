@@ -24,7 +24,7 @@ kotlin {
     withJava()
   }
 
-  js(BOTH) {
+  js {
     useCommonJs()
     browser()
     nodejs()
