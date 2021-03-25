@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio-zipfilesystem/3.0.0-IR/okio-zipfilesystem-3.0.0-IR.module",
+    "group": "com.squareup.okio",
+    "module": "okio-zipfilesystem",
+    "version": "3.0.0-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "faq5qxiuizeffprgxbc6heg2ni"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-zipfilesystem-metadata-3.0.0-IR.jar",
+          "url": "okio-zipfilesystem-metadata-3.0.0-IR.jar",
+          "size": 261,
+          "sha512": "6de91cdafbf55664472573e9648c96b63504a0597e7e160a5c9e984780a354b2473c8556cceabd559b7db1860063f722d09e7d013e392cd76584cbe08c26fbdb",
+          "sha256": "9b9ff80d7580b96af77fc422873a4eeeef586d076e632c64c85000f875781fa4",
+          "sha1": "c81f45fc445d2ed3027e90d67d61c033da851822",
+          "md5": "67b1a606b1109cd79c42ef5bcd4992d2"
+        }
+      ]
+    }
+  ]
+}

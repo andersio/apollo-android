@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-android-support",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-sqlite",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-android-support-2.5.5-IR.aar",
+          "url": "apollo-android-support-2.5.5-IR.aar",
+          "size": 10137,
+          "sha512": "4ab84f8467474c7ad4db5db605a0d8e6d917ca57be3541dd75054d11ad535b17e90f3ab8115b829a2d603989cd231b7e83f70cce2b7243d3548c99f33a110a9a",
+          "sha256": "d596523339c56aec4fbdcb2d9c10d7d3c8c511b2d4b7e15cc145083cdbaac19f",
+          "sha1": "9aaa0b6df7f7ce7bb8336cf3fa66aa9b23f7e648",
+          "md5": "9297c7f31280ac2340728503c5ba6bb7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-sqlite",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-android-support-2.5.5-IR.aar",
+          "url": "apollo-android-support-2.5.5-IR.aar",
+          "size": 10137,
+          "sha512": "4ab84f8467474c7ad4db5db605a0d8e6d917ca57be3541dd75054d11ad535b17e90f3ab8115b829a2d603989cd231b7e83f70cce2b7243d3548c99f33a110a9a",
+          "sha256": "d596523339c56aec4fbdcb2d9c10d7d3c8c511b2d4b7e15cc145083cdbaac19f",
+          "sha1": "9aaa0b6df7f7ce7bb8336cf3fa66aa9b23f7e648",
+          "md5": "9297c7f31280ac2340728503c5ba6bb7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-api",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-api-metadata-2.5.5-IR.jar",
+          "url": "apollo-api-2.5.5-IR.jar",
+          "size": 37871,
+          "sha512": "1a6383103ad273c085e44d0b15c9d7ec0dd78276b943acf1c21b2f01516e6d51547a41f3ccfdf1c4633227c4a9ba962f3aca8428bf323f6b6e0bf31e7e091b2e",
+          "sha256": "78b80edb20e9c5d555d319044c49ab2ca310a38d94b13c195913ff91c6ea9b74",
+          "sha1": "d759922ffa55e169857ea08c0e19e1d9e832ffe4",
+          "md5": "461ae90a6271db80fc9146e5d89e3c2c"
+        }
+      ]
+    },
+    {
+      "name": "iosApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-api-ios-arm64/2.5.5-IR/apollo-api-ios-arm64-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-ios-arm64",
+        "version": "2.5.5-IR"
+      }
+    },
+    {
+      "name": "iosSimApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-api-ios-x64/2.5.5-IR/apollo-api-ios-x64-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-ios-x64",
+        "version": "2.5.5-IR"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-api-js/2.5.5-IR/apollo-api-js-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-js",
+        "version": "2.5.5-IR"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-api-js/2.5.5-IR/apollo-api-js-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-js",
+        "version": "2.5.5-IR"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../apollo-api-jvm/2.5.5-IR/apollo-api-jvm-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-jvm",
+        "version": "2.5.5-IR"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../apollo-api-jvm/2.5.5-IR/apollo-api-jvm-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-jvm",
+        "version": "2.5.5-IR"
+      }
+    }
+  ]
+}

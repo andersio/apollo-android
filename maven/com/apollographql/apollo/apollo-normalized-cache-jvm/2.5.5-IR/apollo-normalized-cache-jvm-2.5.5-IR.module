@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-normalized-cache/2.5.5-IR/apollo-normalized-cache-2.5.5-IR.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-normalized-cache",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-normalized-cache-jvm-2.5.5-IR.jar",
+          "url": "apollo-normalized-cache-jvm-2.5.5-IR.jar",
+          "size": 63946,
+          "sha512": "f417c007b63c1128fa2eee1aad4969e7b0639c4809793a54160a58910fd8fc90ba6669e67e9b6e3f68228c588230d141f87a42bb90c7c6374bd439bb55ac87b3",
+          "sha256": "57a849b83c5465e1f9411129fe29ba10460bdab977ccc3eb8b82328f8f454bb6",
+          "sha1": "aee22aa02dc84ee71fa26a8efe55792ab8f74400",
+          "md5": "401f691d2a9b08fd3573880c2482f9b4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.nytimes.android",
+          "module": "cache",
+          "version": {
+            "requires": "2.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-normalized-cache-jvm-2.5.5-IR.jar",
+          "url": "apollo-normalized-cache-jvm-2.5.5-IR.jar",
+          "size": 63946,
+          "sha512": "f417c007b63c1128fa2eee1aad4969e7b0639c4809793a54160a58910fd8fc90ba6669e67e9b6e3f68228c588230d141f87a42bb90c7c6374bd439bb55ac87b3",
+          "sha256": "57a849b83c5465e1f9411129fe29ba10460bdab977ccc3eb8b82328f8f454bb6",
+          "sha1": "aee22aa02dc84ee71fa26a8efe55792ab8f74400",
+          "md5": "401f691d2a9b08fd3573880c2482f9b4"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../apollo-normalized-cache-metadata/2.5.5-IR/apollo-normalized-cache-metadata-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-normalized-cache-metadata",
+        "version": "2.5.5-IR"
+      }
+    }
+  ]
+}

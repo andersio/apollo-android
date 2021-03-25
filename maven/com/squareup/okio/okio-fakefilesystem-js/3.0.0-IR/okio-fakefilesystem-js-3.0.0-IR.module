@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio-fakefilesystem-multiplatform/3.0.0-IR/okio-fakefilesystem-multiplatform-3.0.0-IR.module",
+    "group": "com.squareup.okio",
+    "module": "okio-fakefilesystem-multiplatform",
+    "version": "3.0.0-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "faq5qxiuizeffprgxbc6heg2ni"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-fakefilesystem-js-3.0.0-IR.klib",
+          "url": "okio-fakefilesystem-js-3.0.0-IR.klib",
+          "size": 26764,
+          "sha512": "5e0b43d4c6dc1ae373b02a8d4778ca1c566c017b5db132580aa20c986201640e0a62fa627a03517f89e2de9e613b521e075ef151d7073072e85f63523bf5646c",
+          "sha256": "8db8beaeca9424eb2bb4f8e19c1ed59016e3de7bb117b4a01c792c385d36099f",
+          "sha1": "17921e834458b7dce768b6ee23334a3013e82460",
+          "md5": "7d503a2e99782a73025f16607184ce4c"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-fakefilesystem-js-3.0.0-IR.klib",
+          "url": "okio-fakefilesystem-js-3.0.0-IR.klib",
+          "size": 26764,
+          "sha512": "5e0b43d4c6dc1ae373b02a8d4778ca1c566c017b5db132580aa20c986201640e0a62fa627a03517f89e2de9e613b521e075ef151d7073072e85f63523bf5646c",
+          "sha256": "8db8beaeca9424eb2bb4f8e19c1ed59016e3de7bb117b4a01c792c385d36099f",
+          "sha1": "17921e834458b7dce768b6ee23334a3013e82460",
+          "md5": "7d503a2e99782a73025f16607184ce4c"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-metadata/3.0.0-IR/okio-fakefilesystem-metadata-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-metadata",
+        "version": "3.0.0-IR"
+      }
+    }
+  ]
+}

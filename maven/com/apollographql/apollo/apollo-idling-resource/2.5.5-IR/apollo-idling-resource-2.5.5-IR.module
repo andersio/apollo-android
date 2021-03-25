@@ -1,0 +1,75 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-idling-resource",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "apollo-idling-resource-2.5.5-IR.aar",
+          "url": "apollo-idling-resource-2.5.5-IR.aar",
+          "size": 2688,
+          "sha512": "323cf3dcd802e87b0f7feb6dffbb33fcebb962e31d9d37dd5f25b274be6f3786ef85d9d95368672f12efedc3ebdafb9377825c9fd0dd50320d4569020c23dadc",
+          "sha256": "a4eff073841ddb9e03d84b8e9dca977ab54b4a26c969600b32edefaf56e3f02d",
+          "sha1": "b36614065d0fadd0fd49a91e73fe4d13ae4724e4",
+          "md5": "4e541d940f590147efa1209656d57dba"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.test.espresso",
+          "module": "espresso-idling-resource",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-idling-resource-2.5.5-IR.aar",
+          "url": "apollo-idling-resource-2.5.5-IR.aar",
+          "size": 2688,
+          "sha512": "323cf3dcd802e87b0f7feb6dffbb33fcebb962e31d9d37dd5f25b274be6f3786ef85d9d95368672f12efedc3ebdafb9377825c9fd0dd50320d4569020c23dadc",
+          "sha256": "a4eff073841ddb9e03d84b8e9dca977ab54b4a26c969600b32edefaf56e3f02d",
+          "sha1": "b36614065d0fadd0fd49a91e73fe4d13ae4724e4",
+          "md5": "4e541d940f590147efa1209656d57dba"
+        }
+      ]
+    }
+  ]
+}

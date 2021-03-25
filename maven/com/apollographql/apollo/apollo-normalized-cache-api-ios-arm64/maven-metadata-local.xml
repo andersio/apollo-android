@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.apollographql.apollo</groupId>
+  <artifactId>apollo-normalized-cache-api-ios-arm64</artifactId>
+  <versioning>
+    <latest>2.5.5-IR</latest>
+    <release>2.5.5-IR</release>
+    <versions>
+      <version>2.5.5-IR</version>
+    </versions>
+    <lastUpdated>20210325004230</lastUpdated>
+  </versioning>
+</metadata>

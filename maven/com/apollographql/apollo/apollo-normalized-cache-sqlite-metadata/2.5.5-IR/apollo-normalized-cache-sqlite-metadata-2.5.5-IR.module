@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-normalized-cache-sqlite-jvm/2.5.5-IR/apollo-normalized-cache-sqlite-jvm-2.5.5-IR.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-normalized-cache-sqlite-jvm",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-normalized-cache-sqlite-metadata-2.5.5-IR.jar",
+          "url": "apollo-normalized-cache-sqlite-metadata-2.5.5-IR.jar",
+          "size": 8459,
+          "sha512": "90786563a951e233d7a42dd52e311b65040526b16b9106f4a08a85d09c728a4464ebf0369019a1ff1c8d3562f4839cf85bca0aaeebc787cf9076efbf9e0d59cb",
+          "sha256": "baab2a38ad2a64b233e362d10a3494f1732b042c8d345aa43d8890a8e4f6bf2a",
+          "sha1": "381162db63f763b44905a1c06ba1da5ca9826045",
+          "md5": "43bbbca46d86997f737d6b14cda20aa7"
+        }
+      ]
+    }
+  ]
+}

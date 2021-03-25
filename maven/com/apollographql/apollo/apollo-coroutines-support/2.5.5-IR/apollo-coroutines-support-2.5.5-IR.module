@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-coroutines-support",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-coroutines-support-2.5.5-IR.jar",
+          "url": "apollo-coroutines-support-2.5.5-IR.jar",
+          "size": 27694,
+          "sha512": "612661dbd50edde8ae432895d01d66f95aa91d7bc7907a3d6c9ecddf80c66744c678e1fed22273ef97707f4ba773c89369157895f50ecde2287af9fe7c939577",
+          "sha256": "204642f0e7ab3979e140c86687aa6edbf1f956a9eb1745df4cf69e04029722dc",
+          "sha1": "2c2350832bc66046be769db87d71c054d8dfe163",
+          "md5": "e6ad37408333a28c4aad4f044833c988"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-coroutines-support-2.5.5-IR.jar",
+          "url": "apollo-coroutines-support-2.5.5-IR.jar",
+          "size": 27694,
+          "sha512": "612661dbd50edde8ae432895d01d66f95aa91d7bc7907a3d6c9ecddf80c66744c678e1fed22273ef97707f4ba773c89369157895f50ecde2287af9fe7c939577",
+          "sha256": "204642f0e7ab3979e140c86687aa6edbf1f956a9eb1745df4cf69e04029722dc",
+          "sha1": "2c2350832bc66046be769db87d71c054d8dfe163",
+          "md5": "e6ad37408333a28c4aad4f044833c988"
+        }
+      ]
+    }
+  ]
+}

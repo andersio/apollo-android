@@ -1,0 +1,221 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.okio",
+    "module": "okio-multiplatform",
+    "version": "3.0.0-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "faq5qxiuizeffprgxbc6heg2ni"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-metadata-3.0.0-IR.jar",
+          "url": "okio-multiplatform-3.0.0-IR.jar",
+          "size": 22948,
+          "sha512": "c3c028452864daa3551a552e1483bdc05f2d5d8f5a3e961bc8c91a3a9bf61d4f0d295103403a55cef3ad7cdce2f3b93dc60055899dbdf916fc3ee60b84d70f83",
+          "sha256": "51e91ded20bc3f0cbd950d2fa530d5f5af041bce27ce06c8c5fb52b94f7af334",
+          "sha1": "658c4323ad4ade073688f3d579604cfbc51552ee",
+          "md5": "435425c90ec1a006c231e342602fa111"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-iosarm64/3.0.0-IR/okio-iosarm64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-iosarm64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-iosx64/3.0.0-IR/okio-iosx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-iosx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../okio-js/3.0.0-IR/okio-js-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-js",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../okio-js/3.0.0-IR/okio-js-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-js",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../okio/3.0.0-IR/okio-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../okio/3.0.0-IR/okio-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-linuxx64/3.0.0-IR/okio-linuxx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-linuxx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-macosx64/3.0.0-IR/okio-macosx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-macosx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-mingwx64/3.0.0-IR/okio-mingwx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-mingwx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-watchosarm32/3.0.0-IR/okio-watchosarm32-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-watchosarm32",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-watchosarm64/3.0.0-IR/okio-watchosarm64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-watchosarm64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-watchosx86/3.0.0-IR/okio-watchosx86-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-watchosx86",
+        "version": "3.0.0-IR"
+      }
+    }
+  ]
+}

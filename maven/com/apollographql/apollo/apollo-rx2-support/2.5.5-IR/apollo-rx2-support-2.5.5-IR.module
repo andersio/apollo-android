@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-rx2-support",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-rx2-support-2.5.5-IR.jar",
+          "url": "apollo-rx2-support-2.5.5-IR.jar",
+          "size": 20154,
+          "sha512": "9c42d5d9fd895644c02a65b4f81a729c721cd8f516723d8a8bce131ea7cfaf81d72b45c757980f71a653ab0448b39fb31f594e82a70adf9a13ef4a6d8e5a5ea0",
+          "sha256": "2ae591507e10ae42b62ec7ec813978d5a4fe0f6eedfb7d467bb247fd54280bf2",
+          "sha1": "913d8aac77d5642120ead77f8f67152099f672fa",
+          "md5": "f6a670b809ec210f3431bd70268f9539"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-rx2-support-2.5.5-IR.jar",
+          "url": "apollo-rx2-support-2.5.5-IR.jar",
+          "size": 20154,
+          "sha512": "9c42d5d9fd895644c02a65b4f81a729c721cd8f516723d8a8bce131ea7cfaf81d72b45c757980f71a653ab0448b39fb31f594e82a70adf9a13ef4a6d8e5a5ea0",
+          "sha256": "2ae591507e10ae42b62ec7ec813978d5a4fe0f6eedfb7d467bb247fd54280bf2",
+          "sha1": "913d8aac77d5642120ead77f8f67152099f672fa",
+          "md5": "f6a670b809ec210f3431bd70268f9539"
+        }
+      ]
+    }
+  ]
+}

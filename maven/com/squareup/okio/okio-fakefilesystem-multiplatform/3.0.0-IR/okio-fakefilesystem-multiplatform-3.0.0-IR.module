@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.okio",
+    "module": "okio-fakefilesystem-multiplatform",
+    "version": "3.0.0-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "faq5qxiuizeffprgxbc6heg2ni"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-fakefilesystem-metadata-3.0.0-IR.jar",
+          "url": "okio-fakefilesystem-multiplatform-3.0.0-IR.jar",
+          "size": 2712,
+          "sha512": "39c7d6a4616667e3837af361e9e8e70da2b4ac029def620d33c16392c48073cf2337b42d62e47a44c9cff4a7c362b36ab017422c950f5e937728d2179e125cf2",
+          "sha256": "77e12577edd1cc670b5fb3c8eac06fa92cccf9beb6deb1ad1bb10c413695f480",
+          "sha1": "b9b92216f08ce462a48826952a6656a7403ad62e",
+          "md5": "ded8ef5711d432c1cf00f662a408f4ca"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-iosarm64/3.0.0-IR/okio-fakefilesystem-iosarm64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-iosarm64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-iosx64/3.0.0-IR/okio-fakefilesystem-iosx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-iosx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-js/3.0.0-IR/okio-fakefilesystem-js-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-js",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-js/3.0.0-IR/okio-fakefilesystem-js-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-js",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem/3.0.0-IR/okio-fakefilesystem-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem/3.0.0-IR/okio-fakefilesystem-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-linuxx64/3.0.0-IR/okio-fakefilesystem-linuxx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-linuxx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-macosx64/3.0.0-IR/okio-fakefilesystem-macosx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-macosx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-mingwx64/3.0.0-IR/okio-fakefilesystem-mingwx64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-mingwx64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-watchosarm32/3.0.0-IR/okio-fakefilesystem-watchosarm32-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-watchosarm32",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-watchosarm64/3.0.0-IR/okio-fakefilesystem-watchosarm64-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-watchosarm64",
+        "version": "3.0.0-IR"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-watchosx86/3.0.0-IR/okio-fakefilesystem-watchosx86-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-watchosx86",
+        "version": "3.0.0-IR"
+      }
+    }
+  ]
+}

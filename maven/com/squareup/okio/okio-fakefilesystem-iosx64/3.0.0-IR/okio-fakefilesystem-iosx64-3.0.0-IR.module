@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio-fakefilesystem-multiplatform/3.0.0-IR/okio-fakefilesystem-multiplatform-3.0.0-IR.module",
+    "group": "com.squareup.okio",
+    "module": "okio-fakefilesystem-multiplatform",
+    "version": "3.0.0-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "faq5qxiuizeffprgxbc6heg2ni"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-fakefilesystem.klib",
+          "url": "okio-fakefilesystem-iosx64-3.0.0-IR.klib",
+          "size": 28689,
+          "sha512": "6c245b710ac3db01b78c668de89aa9b5dcb2f23afa2381a88b59e0f2800d4068320b8295573c92125a5a6768cf62ae5e663742efcbffeed5b6eb49f0f83d1f18",
+          "sha256": "56fa1a4692b8e747597d6b8868d530a8f3602d80c08940c2f253cdfa2cde0360",
+          "sha1": "215df0799d23b1294d9ac1526977240a881e3386",
+          "md5": "de233d60827ff309237cec2705d3e42c"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../okio-fakefilesystem-metadata/3.0.0-IR/okio-fakefilesystem-metadata-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-fakefilesystem-metadata",
+        "version": "3.0.0-IR"
+      }
+    }
+  ]
+}

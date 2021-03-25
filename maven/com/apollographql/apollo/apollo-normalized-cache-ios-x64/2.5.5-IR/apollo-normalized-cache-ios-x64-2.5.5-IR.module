@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-normalized-cache/2.5.5-IR/apollo-normalized-cache-2.5.5-IR.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-normalized-cache",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-normalized-cache.klib",
+          "url": "apollo-normalized-cache-ios-x64-2.5.5-IR.klib",
+          "size": 31956,
+          "sha512": "421c87921330bea8afc47cfc031a329c74a8338a7e19df9cc19b7becbc4dd11b05002a1bbc8599a0d7442c0ff7dc18c68f827216f19c17ae0063b569d80cf176",
+          "sha256": "f701d6ba62eb9f088e2b1b387e7ea5628e062246bbce9c603118a7b829737240",
+          "sha1": "963187bb5b9cf93478cbd4c2e6ab6bddb346f3dd",
+          "md5": "ad300d72d8f5a48e3f5885fe06d1e836"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../apollo-normalized-cache-metadata/2.5.5-IR/apollo-normalized-cache-metadata-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-normalized-cache-metadata",
+        "version": "2.5.5-IR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-http-cache",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.11"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-http-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-http-cache-2.5.5-IR.jar",
+          "url": "apollo-http-cache-2.5.5-IR.jar",
+          "size": 52723,
+          "sha512": "892ca04b0d45409e6e095683b2b01cfd12b2d82c86f6002f4b3e9496aa9592af5459d60a02b018b78387709434891d423eb118c82df4f28a88f7b6b312be6519",
+          "sha256": "b2be13137e1398de3c514f3cc53d0e6d34102724a1a64d8da7359ee9d4a88ab6",
+          "sha1": "48ee2ebdf193f1d073fdf8435af1b162153c6403",
+          "md5": "5aed38d7c0d826623a75a00a1a8cf2b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.11"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-http-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-http-cache-2.5.5-IR.jar",
+          "url": "apollo-http-cache-2.5.5-IR.jar",
+          "size": 52723,
+          "sha512": "892ca04b0d45409e6e095683b2b01cfd12b2d82c86f6002f4b3e9496aa9592af5459d60a02b018b78387709434891d423eb118c82df4f28a88f7b6b312be6519",
+          "sha256": "b2be13137e1398de3c514f3cc53d0e6d34102724a1a64d8da7359ee9d4a88ab6",
+          "sha1": "48ee2ebdf193f1d073fdf8435af1b162153c6403",
+          "md5": "5aed38d7c0d826623a75a00a1a8cf2b9"
+        }
+      ]
+    }
+  ]
+}

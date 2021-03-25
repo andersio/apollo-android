@@ -1,0 +1,62 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio-multiplatform/3.0.0-IR/okio-multiplatform-3.0.0-IR.module",
+    "group": "com.squareup.okio",
+    "module": "okio-multiplatform",
+    "version": "3.0.0-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "faq5qxiuizeffprgxbc6heg2ni"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio.klib",
+          "url": "okio-macosx64-3.0.0-IR.klib",
+          "size": 307208,
+          "sha512": "fcf66b304d611fc56394d866ae2e6dc0da883114a8310d5b6bb73217c650530cdf1b28e963d3d3d174cb5af16317ee45b53bc84cecd280b1948c727f6ae716b3",
+          "sha256": "03d4df88e4ebe29f9e4747e5bf24420c3d5ab563128cacfced2e8a6a8aeaebf6",
+          "sha1": "f57fd1205ee3d5d31de31a2bbe001c4ff98988c6",
+          "md5": "fe3ed7be15540d22e28ad3cf9652004a"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../okio-metadata/3.0.0-IR/okio-metadata-3.0.0-IR.module",
+        "group": "com.squareup.okio",
+        "module": "okio-metadata",
+        "version": "3.0.0-IR"
+      }
+    }
+  ]
+}

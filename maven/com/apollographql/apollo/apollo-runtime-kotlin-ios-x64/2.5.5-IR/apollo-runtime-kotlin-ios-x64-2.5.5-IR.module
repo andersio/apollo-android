@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-runtime-kotlin/2.5.5-IR/apollo-runtime-kotlin-2.5.5-IR.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-runtime-kotlin",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "3.0.0-IR"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-runtime-kotlin.klib",
+          "url": "apollo-runtime-kotlin-ios-x64-2.5.5-IR.klib",
+          "size": 85485,
+          "sha512": "e4432b38450c736d78008ad8a9889a314251c25fd48b478131611c333de141eebe8a9c7f9e92446b298eb5be805ad0f2ba33c77c5a79c75514467d6b775ab1ae",
+          "sha256": "3ff12afe2f82f114b9e69b692d33612a2c01f0c13feb472b60f3407e14192a8f",
+          "sha1": "aef6f392a056ef60fc59835f38079fb8930e8d32",
+          "md5": "f83ca22b18c386b4e0bd6a28ee27e506"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../apollo-runtime-kotlin-metadata/2.5.5-IR/apollo-runtime-kotlin-metadata-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-runtime-kotlin-metadata",
+        "version": "2.5.5-IR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-normalized-cache-sqlite/2.5.5-IR/apollo-normalized-cache-sqlite-2.5.5-IR.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-normalized-cache-sqlite",
+    "version": "2.5.5-IR",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "wygorj6an5gdldeprsn2flpu2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-normalized-cache-api",
+          "version": {
+            "requires": "2.5.5-IR"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.31"
+          }
+        },
+        {
+          "group": "com.squareup.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "1.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-normalized-cache-sqlite.klib",
+          "url": "apollo-normalized-cache-sqlite-ios-x64-2.5.5-IR.klib",
+          "size": 34676,
+          "sha512": "71a07574402bd9aaf9393c42b4b2453d234331dc0b2930ecd7c601a12d016a6d4855affdbf1de50b5f1a6b6f0ea76b75b76572b0908086c4020b0ed165682919",
+          "sha256": "d3db8188151dad1566b68f0c3281c22a82df7120437cdb6d602e199908f4e579",
+          "sha1": "1bc638c3e74f6fbff444dc57e81f2773a9436207",
+          "md5": "f39e67f5852c7d5eefaeb1d56555eb19"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../apollo-normalized-cache-sqlite-metadata/2.5.5-IR/apollo-normalized-cache-sqlite-metadata-2.5.5-IR.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-normalized-cache-sqlite-metadata",
+        "version": "2.5.5-IR"
+      }
+    }
+  ]
+}
