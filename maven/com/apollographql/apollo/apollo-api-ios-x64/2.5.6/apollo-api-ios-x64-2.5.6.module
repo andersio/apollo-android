@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-api/2.5.6/apollo-api-2.5.6.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-api",
+    "version": "2.5.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "m5jmzwi4pfa6nj7mvwjw64gywu"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-api.klib",
+          "url": "apollo-api-ios-x64-2.5.6.klib",
+          "size": 188905,
+          "sha512": "66cae58389bbe057332195653d9fe18146653695d9be50820b481130e52fe40d4e6e5377cef52eba23b1ffba7aa90d55e65353be98033034aab322d08627a13f",
+          "sha256": "af09fff483b590fafb7808fb4034d8a1d6daa37a9d6f09b90c5d8e1f1bef6dbd",
+          "sha1": "878093e5066904bc043f416e1822621301ff74d5",
+          "md5": "705324be84ee326f78572ac187094245"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../apollo-api-metadata/2.5.6/apollo-api-metadata-2.5.6.module",
+        "group": "com.apollographql.apollo",
+        "module": "apollo-api-metadata",
+        "version": "2.5.6"
+      }
+    }
+  ]
+}

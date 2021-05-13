@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.apollo",
+    "module": "apollo-compiler",
+    "version": "2.5.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "ju3mbjggjrcellrbuirxbuxile"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-compiler-2.5.6.jar",
+          "url": "apollo-compiler-2.5.6.jar",
+          "size": 952286,
+          "sha512": "0ddfbbd899ab831423d6da168f0014028fe82875f42df172d1dc7b5a90a11bdc3b56ce33a4d16389b179f0ae9ad024cf72adbfcfdd3e54351869757b77a46ceb",
+          "sha256": "9a934a1ec5930e8f3630ddda43cc93e4a082ba34f3a3d08995db70885ae6922c",
+          "sha1": "127289a312a0eb255b4cdc2db133ad916bc02108",
+          "md5": "7fcc4d086c6a14d5fb674546f16abfb8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-api",
+          "version": {
+            "requires": "2.5.6"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-compiler-2.5.6.jar",
+          "url": "apollo-compiler-2.5.6.jar",
+          "size": 952286,
+          "sha512": "0ddfbbd899ab831423d6da168f0014028fe82875f42df172d1dc7b5a90a11bdc3b56ce33a4d16389b179f0ae9ad024cf72adbfcfdd3e54351869757b77a46ceb",
+          "sha256": "9a934a1ec5930e8f3630ddda43cc93e4a082ba34f3a3d08995db70885ae6922c",
+          "sha1": "127289a312a0eb255b4cdc2db133ad916bc02108",
+          "md5": "7fcc4d086c6a14d5fb674546f16abfb8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-api-jvm/2.5.6/apollo-api-jvm-2.5.6.module",
+    "group": "com.apollographql.apollo",
+    "module": "apollo-api-jvm",
+    "version": "2.5.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "m5jmzwi4pfa6nj7mvwjw64gywu"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio-multiplatform",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-api-metadata-2.5.6.jar",
+          "url": "apollo-api-metadata-2.5.6.jar",
+          "size": 37869,
+          "sha512": "b4911f9df85baf5b18cdcc87ad4178e4aae4a9954da94ca054e696c982f9a976c2421b7c985fac5ac15e8d2ae6ee4fb57d6d1baab6d6ea8c072d3ce49b8e5b40",
+          "sha256": "8ef5c9e7745fcb3d1b0f0fa32c9bde7c142ee7d6105af7c7a9edcfe4004ed554",
+          "sha1": "a0330099f0b4694c06ecfa4153decb7711f7c3e0",
+          "md5": "1ea6a460e1804d0e8127933e680a57d6"
+        }
+      ]
+    }
+  ]
+}
