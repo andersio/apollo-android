@@ -61,6 +61,11 @@ subprojects {
   this.apply(plugin = "signing")
 
   repositories {
+    mavenLocal {
+      content {
+        includeGroup("com.squareup.okio")
+      }
+    }
     google()
     mavenCentral()
     jcenter {
